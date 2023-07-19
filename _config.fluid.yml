@@ -14,13 +14,14 @@ category:
 archive:
   banner_img: /img/bg.jpg 
   banner_img_height: 90
-  banner_mask_alpha: 0.3
+  banner_mask_alpha: 0.1
 
 tag:
   banner_img: /img/bg.jpg
   banner_img_height: 90
   banner_mask_alpha: 0.3
 
+favicon: /img/favicon.ico
 
 navbar:
   blog_title: Data Race
@@ -34,5 +35,23 @@ navbar:
 font:
   font_family: 'LXGW WenKai'
 
+post:
+  banner_img: /img/bg.jpg
+  comments:
+    enable: true
+    type: giscus
+
+code:
+  copy_btn: true
+  highlight:
+    enable: true
+    line_number: true
+    lib: "highlightjs"
+    highlightjs:
+      style: 'Github Gist'
+      bg_color: false
+    prismjs:
+      style: "default"
+      preprocess: true
 
 
