@@ -1,0 +1,38 @@
+index:
+  slogan:
+    enable: true
+    text: 面向热爱编程
+  banner_img: /img/bg.jpg
+  banner_img_height: 90
+  banner_mask_alpha: 0.3
+
+category:
+  banner_img: /img/bg.jpg 
+  banner_img_height: 90
+  banner_mask_alpha: 0.3
+
+archive:
+  banner_img: /img/bg.jpg 
+  banner_img_height: 90
+  banner_mask_alpha: 0.3
+
+tag:
+  banner_img: /img/bg.jpg
+  banner_img_height: 90
+  banner_mask_alpha: 0.3
+
+
+navbar:
+  blog_title: Data Race
+  menu:
+    - { key: '首页', link: '/', icon: 'iconfont icon-home-fill' }
+    - { key: '归档', link: '/archives/', icon: 'iconfont icon-archive-fill' }
+    - { key: '分类', link: '/categories/', icon: 'iconfont icon-category-fill' }
+    - { key: '标签', link: '/tags/', icon: 'iconfont icon-tags-fill' }
+    - { key: '关于', link: 'https://github.com/data-race', icon: 'iconfont icon-user-fill' }
+
+font:
+  font_family: 'LXGW WenKai'
+
+
+
