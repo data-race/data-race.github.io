@@ -1,7 +1,12 @@
 ---
 title: K8s Cheatsheet
-date: 2023-07-17 20:17:25
-tags: [k8s实践, cheatsheet, 实用技巧, TOKEN=$(kubectl get secrets -o jsonpath="{.items[?(@.metadata.annotations['kubernetes\.io/service-account\.name']=='default')].data.token}"|base64 -d)]
+tags:
+  - k8s实践
+  - cheatsheet
+  - 实用技巧
+categories:
+  - 实用技巧
+date: 2023-07-20 21:14:34
 ---
 #k8s实践 
 #cheatsheet
@@ -102,7 +107,7 @@ k port-forward service/<service-name>  <local-port>:<svc-port> -n <namespace>
 # 指向引用该集群名称的 API 服务器
 # APISERVER=$(kubectl config view -o jsonpath="{.clusters[?(@.name==\"$CLUSTER_NAME\")].cluster.server}")
 # 获得令牌
-#TOKEN=$(kubectl get secrets -o jsonpath="{.items[?(@.metadata.annotations['kubernetes\.io/service-account\.name']=='default')].data.token}"|base64 -d)
+# TOKEN=$(kubectl get secrets -o jsonpath="{.items[?(@.metadata.annotations['kubernetes\.io/service-account\.name']=='default')].data.token}"|base64 -d)
 
 curl -X GET https://<cluster-addr>/api --header "Authorization: Bearer <TOKEN>" --insecure
 ```
@@ -141,7 +146,8 @@ kubectl patch deployment <deployment-name> -p \
 ```
 
 ### 怎么使用configmap挂载文件
-![[wecom-temp-8da02404eb88503993e1ae68a32bdf5b.png]]
+![](img/wecom-temp-8da02404eb88503993e1ae68a32bdf5b.png
+)
 
 ### 为Secret生成base64
 ``` shell

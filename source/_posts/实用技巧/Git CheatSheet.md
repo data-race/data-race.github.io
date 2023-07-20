@@ -68,4 +68,5 @@ git switch <BranchName>
 git rebase main
 ```
 来变更当前分支的基分支，和merge类似，但是是线性的
-![[Pasted image 20230215163755.png]]
+![](img/Pastedimage20230215163755.png
+)

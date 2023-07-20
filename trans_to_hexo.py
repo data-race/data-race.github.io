@@ -9,7 +9,7 @@ def convert_to_hexo_post(input_file_path:str)->List[str]:
         lines = f.readlines()
         newlines:List[str] = []
         filename = os.path.basename(input_file_path)
-        title = filename.split('.')[0]
+        title = '.'.join(filename.split('.')[:-1])
         newlines.append('---\n')
         newlines.append('title: {}\n'.format(title))
         created_timestamp = os.path.getctime(input_file_path)
@@ -21,7 +21,15 @@ def convert_to_hexo_post(input_file_path:str)->List[str]:
                 tags.append(line[1:].strip())
         newlines.append('tags: [{}]\n'.format(', '.join(tags)))
         newlines.append('---\n')
-        newlines += lines
+        for line in lines:
+            if line.startswith("![["):
+                title = line[3:]
+                title = title.replace(']', '')
+                if '|' in title:
+                    title = title.split('|')[0]
+                newlines.append('![](img/{})\n'.format(title.replace(' ', '')))
+            else:
+                newlines.append(line)
         return newlines
 
 
@@ -33,7 +41,7 @@ if __name__ == '__main__':
         if file_name.endswith('.md'):
             input_file_path = os.path.join(input_dir, file_name)
             newlines = convert_to_hexo_post(input_file_path)
-            output_file_path = os.path.join(output_dir, file_name)
+            output_file_path = os.path.join(output_dir, file_name.replace(' ', ''))
             with open(output_file_path, 'w') as f:
                 f.writelines(newlines)
         
