@@ -1,0 +1,196 @@
+{
+  "main": {
+    "id": "c66aadeb03668a74",
+    "type": "split",
+    "children": [
+      {
+        "id": "0a6d5c412fe6b7bc",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e8da8611366840da",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/环境配置/Windows开发环境配置.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "7ffba03bc9fad175",
+    "type": "split",
+    "children": [
+      {
+        "id": "b37976e2d7982988",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "116b6fd9ba5815e9",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "0a74f7c23bb95255",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "c461b446a2530ea7",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          },
+          {
+            "id": "2d4e7b443531a1cb",
+            "type": "leaf",
+            "state": {
+              "type": "file-tree-view",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "d09733415a45cbdd",
+    "type": "split",
+    "children": [
+      {
+        "id": "5c5062a2b07b16b4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3848182b3b8998ab",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "_posts/环境配置/Windows开发环境配置.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "9608898bec8fcb7c",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "_posts/环境配置/Windows开发环境配置.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "0daf324088eb5068",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "84ca6e788630ceca",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "_posts/环境配置/Windows开发环境配置.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "file-tree-alternative:File Tree Alternative Plugin": false
+    }
+  },
+  "active": "e8da8611366840da",
+  "lastOpenFiles": [
+    "_posts/实用技巧/Docker CheatSheet.md",
+    "_posts/求职/2022商汤实习/开发及热插拔混部需求.md",
+    "_posts/求职/2022微软实习/Purview文档.md",
+    "_posts/求职/2022微软实习/Howtocreateascan.md",
+    "_posts/求职/2022微软实习/AtlasModelLanguage.md",
+    "_posts/求职/2022微软实习",
+    "_posts/求职/2022商汤实习/商汤实习日记.md",
+    "_posts/求职/2022商汤实习/商汤实习总结.md",
+    "_posts/求职/2022秋招/2022秋招Singularity.md",
+    "_posts/求职/2022秋招/2022秋招阿里云.md",
+    "_posts/实用技巧/Python Cheat Sheet.md",
+    "img/Diagram.svg",
+    "_posts/实用技巧/SQL Cheatsheet.md",
+    "_posts/实用技巧/Terraform CheatSheet.md",
+    "img/Diagram4.svg.xml",
+    "_posts/Anything From Anywhere/关于权限控制的一切.md",
+    "_posts/科研/答辩PPT修改.md",
+    "_posts/求职/2022秋招/2022秋招SmartX.md",
+    "img/Diagram.svg.xml",
+    "_posts/环境配置/VSCode remote 手动安装.md",
+    "img/Diagram3.svg.xml",
+    "_posts/Kubernetes/Kubernetes CNI 以 Flannel 为例.md",
+    "img/Diagram2.svg.xml",
+    "img/Diagram1.svg",
+    "_posts/求职/2022商汤实习/关于开发机分区污点可选功能添加的技术方案.md",
+    "_posts/K8s概念学习/4.Deployment.md",
+    "template/{{title}}.md",
+    "template",
+    "未命名.canvas",
+    "2023-07-20.md",
+    "_posts/K8s概念学习/3.Pod与容器设计模式.md",
+    "_posts/K8s概念学习/2.K8s概念.md",
+    "_posts/K8s概念学习/1.容器基本概念.md",
+    "_posts/环境配置/记录一次Jupyter不可用经历.md"
+  ]
+}
