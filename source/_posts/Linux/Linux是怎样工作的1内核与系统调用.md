@@ -1,7 +1,7 @@
 ---
 title: Linux 是怎样工作的1 内核与系统调用
 date: 2023-07-17 20:17:25
-tags: [linux, 例如]
+tags: [linux]
 ---
 #linux
 

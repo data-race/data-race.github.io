@@ -3,7 +3,6 @@ title: Linux CheatSheet
 tags:
   - cheatsheet
   - 实用技巧
-  - 例如
 categories:
   - 实用技巧
 date: 2023-07-17 20:17:25
