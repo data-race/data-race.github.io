@@ -1,7 +1,10 @@
 ---
 title: MatLab Parallel Computing Tool Box
+tags:
+  - MatLab
+categories:
+  - MatLab
 date: 2023-07-17 20:17:25
-tags: [MatLab]
 ---
 #MatLab
 

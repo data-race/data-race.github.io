@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/环境配置/Windows开发环境配置.md",
+                "file": "_posts/Anything From Anywhere/TensorFlowTutorial.md",
                 "mode": "source",
                 "source": false
               }
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/环境配置/Windows开发环境配置.md",
+                "file": "_posts/Anything From Anywhere/TensorFlowTutorial.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/环境配置/Windows开发环境配置.md",
+                "file": "_posts/Anything From Anywhere/TensorFlowTutorial.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/环境配置/Windows开发环境配置.md"
+                "file": "_posts/Anything From Anywhere/TensorFlowTutorial.md"
               }
             }
           }
@@ -158,7 +158,13 @@
   },
   "active": "e8da8611366840da",
   "lastOpenFiles": [
+    "_posts/Anything From Anywhere/关于权限控制的一切.md",
+    "_posts/Anything From Anywhere/协变与逆变.md",
     "_posts/实用技巧/Docker CheatSheet.md",
+    "_posts/Anything From Anywhere/HTTPS,X.509，以及实践.md",
+    "_posts/Anything From Anywhere/PyTorch模型分布式训练.md",
+    "_posts/Anything From Anywhere/TensorFlowTutorial.md",
+    "_posts/环境配置/Windows开发环境配置.md",
     "_posts/求职/2022商汤实习/开发及热插拔混部需求.md",
     "_posts/求职/2022微软实习/Purview文档.md",
     "_posts/求职/2022微软实习/Howtocreateascan.md",
@@ -173,7 +179,6 @@
     "_posts/实用技巧/SQL Cheatsheet.md",
     "_posts/实用技巧/Terraform CheatSheet.md",
     "img/Diagram4.svg.xml",
-    "_posts/Anything From Anywhere/关于权限控制的一切.md",
     "_posts/科研/答辩PPT修改.md",
     "_posts/求职/2022秋招/2022秋招SmartX.md",
     "img/Diagram.svg.xml",
@@ -187,10 +192,6 @@
     "template/{{title}}.md",
     "template",
     "未命名.canvas",
-    "2023-07-20.md",
-    "_posts/K8s概念学习/3.Pod与容器设计模式.md",
-    "_posts/K8s概念学习/2.K8s概念.md",
-    "_posts/K8s概念学习/1.容器基本概念.md",
-    "_posts/环境配置/记录一次Jupyter不可用经历.md"
+    "2023-07-20.md"
   ]
 }

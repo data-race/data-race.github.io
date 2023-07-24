@@ -1,7 +1,10 @@
 ---
 title: Linux是怎样工作的2 进程的创建
+tags:
+  - linux
+categories:
+  - Linux
 date: 2023-07-17 20:17:25
-tags: [linux]
 ---
 #linux 
 
