@@ -1,3 +1,6 @@
 {
-  "accentColor": ""
+  "accentColor": "",
+  "textFontFamily": "LXGW WenKai",
+  "interfaceFontFamily": "LXGW WenKai",
+  "monospaceFontFamily": "Fira Code"
 }

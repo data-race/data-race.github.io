@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "0a6d5c412fe6b7bc",
+        "id": "89f9d13ce00dc71f",
         "type": "tabs",
         "children": [
           {
-            "id": "e8da8611366840da",
+            "id": "6316577210471a7b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/Anything From Anywhere/协变与逆变.md",
+                "file": "_posts/Istio/Istio学习1：为什么需要Service Mesh.md",
                 "mode": "source",
                 "source": false
               }
@@ -73,8 +73,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -94,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/Anything From Anywhere/协变与逆变.md",
+                "file": "_posts/Istio/Istio学习1：为什么需要Service Mesh.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/Anything From Anywhere/协变与逆变.md",
+                "file": "_posts/Istio/Istio学习1：为什么需要Service Mesh.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/Anything From Anywhere/协变与逆变.md"
+                "file": "_posts/Istio/Istio学习1：为什么需要Service Mesh.md"
               }
             }
           }
@@ -156,11 +155,27 @@
       "file-tree-alternative:File Tree Alternative Plugin": false
     }
   },
-  "active": "e8da8611366840da",
+  "active": "6316577210471a7b",
   "lastOpenFiles": [
+    "img/Pastedimage20230807205440.png",
+    "_posts/Istio/Istio学习1：为什么需要Service Mesh.md",
+    "img/Pasted image 20230807202106.png",
+    "img/Pastedimage20230807204549.png",
+    "img/Pastedimage20230807203929.png",
+    "img/Pastedimage20230807202200.png",
+    "_posts/K8s概念学习/1.容器基本概念.md",
+    "Pasted.md",
+    "_posts/Kubernetes/Kubernetes Device Plugin机制.md",
+    "_posts/Kubernetes/Kube flannel 网络插件配置.md",
+    "_posts/环境配置/Clang, C++ 开发配置.md",
+    "Istio学习1：为什么需要Service Mesh.md",
+    "Istio/Istio学习1：为什么需要Service Mesh.md",
+    "_posts/Istio",
+    "_posts/未命名文件夹",
+    "Istio",
+    "_posts/Anything From Anywhere/协变与逆变.md",
     "_posts/Anything From Anywhere/TensorFlowTutorial.md",
     "_posts/Anything From Anywhere/关于权限控制的一切.md",
-    "_posts/Anything From Anywhere/协变与逆变.md",
     "_posts/实用技巧/Docker CheatSheet.md",
     "_posts/Anything From Anywhere/HTTPS,X.509，以及实践.md",
     "_posts/Anything From Anywhere/PyTorch模型分布式训练.md",
@@ -177,21 +192,12 @@
     "_posts/实用技巧/Python Cheat Sheet.md",
     "img/Diagram.svg",
     "_posts/实用技巧/SQL Cheatsheet.md",
-    "_posts/实用技巧/Terraform CheatSheet.md",
     "img/Diagram4.svg.xml",
-    "_posts/科研/答辩PPT修改.md",
-    "_posts/求职/2022秋招/2022秋招SmartX.md",
     "img/Diagram.svg.xml",
-    "_posts/环境配置/VSCode remote 手动安装.md",
     "img/Diagram3.svg.xml",
-    "_posts/Kubernetes/Kubernetes CNI 以 Flannel 为例.md",
     "img/Diagram2.svg.xml",
     "img/Diagram1.svg",
-    "_posts/求职/2022商汤实习/关于开发机分区污点可选功能添加的技术方案.md",
-    "_posts/K8s概念学习/4.Deployment.md",
-    "template/{{title}}.md",
     "template",
-    "未命名.canvas",
-    "2023-07-20.md"
+    "未命名.canvas"
   ]
 }
