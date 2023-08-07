@@ -67,3 +67,11 @@ git rebase main
 ```
 来变更当前分支的基分支，和merge类似，但是是线性的
 ![](img/Pastedimage20230215163755.png)
+
+## Git Hook
+可以通过设置Git Hook脚本让我们在执行一些Git操作时触发一些行为，比如在Commit之前进行Lint检查等：
+``` shell
+cd .git/hooks
+cat "make lint" > pre_commit
+```
+

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/Istio/Istio学习1：为什么需要Service Mesh.md",
+                "file": "_posts/实用技巧/Git CheatSheet.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,9 +93,9 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/Istio/Istio学习1：为什么需要Service Mesh.md",
-                "collapseAll": false,
-                "extraContext": false,
+                "file": "_posts/实用技巧/Git CheatSheet.md",
+                "collapseAll": true,
+                "extraContext": true,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/Istio/Istio学习1：为什么需要Service Mesh.md",
+                "file": "_posts/实用技巧/Git CheatSheet.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,16 +133,16 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/Istio/Istio学习1：为什么需要Service Mesh.md"
+                "file": "_posts/实用技巧/Git CheatSheet.md"
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -155,12 +155,12 @@
       "file-tree-alternative:File Tree Alternative Plugin": false
     }
   },
-  "active": "116b6fd9ba5815e9",
+  "active": "84ca6e788630ceca",
   "lastOpenFiles": [
+    "_posts/Istio/Istio学习1：为什么需要Service Mesh.md",
     "img/Pastedimage20230807211356.png",
     "img/Pasted image 20230807211341.png",
     "img/Pastedimage20230807205440.png",
-    "_posts/Istio/Istio学习1：为什么需要Service Mesh.md",
     "img/Pasted image 20230807202106.png",
     "img/Pastedimage20230807204549.png",
     "img/Pastedimage20230807203929.png",
