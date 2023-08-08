@@ -155,16 +155,21 @@
       "file-tree-alternative:File Tree Alternative Plugin": false
     }
   },
-  "active": "84ca6e788630ceca",
+  "active": "6316577210471a7b",
   "lastOpenFiles": [
+    "img/learnistio2.png",
+    "img/learnistio5.png",
+    "_posts/Istio/Istio学习2： 安装与简单使用.md",
+    "img/learnistio6.png",
+    "img/learnistio1.png",
+    "img/learnistio3.png",
+    "img/learnistio4.png",
     "_posts/Istio/Istio学习1：为什么需要Service Mesh.md",
     "img/Pastedimage20230807211356.png",
     "img/Pasted image 20230807211341.png",
     "img/Pastedimage20230807205440.png",
     "img/Pasted image 20230807202106.png",
     "img/Pastedimage20230807204549.png",
-    "img/Pastedimage20230807203929.png",
-    "img/Pastedimage20230807202200.png",
     "_posts/K8s概念学习/1.容器基本概念.md",
     "Pasted.md",
     "_posts/Kubernetes/Kubernetes Device Plugin机制.md",
@@ -192,13 +197,10 @@
     "_posts/求职/2022秋招/2022秋招Singularity.md",
     "_posts/求职/2022秋招/2022秋招阿里云.md",
     "_posts/实用技巧/Python Cheat Sheet.md",
-    "img/Diagram.svg",
-    "_posts/实用技巧/SQL Cheatsheet.md",
     "img/Diagram4.svg.xml",
     "img/Diagram.svg.xml",
     "img/Diagram3.svg.xml",
     "img/Diagram2.svg.xml",
-    "img/Diagram1.svg",
     "template",
     "未命名.canvas"
   ]
