@@ -216,7 +216,7 @@ sh -c 'curl -s http://webapp.istioinaction/api/catalog/items/1'
 使用端口转发访问webapp
 
 ``` shell
-k port-forward svc/webapp 80:12123
+k port-forward svc/webapp 12123:80
 
 ```
 
