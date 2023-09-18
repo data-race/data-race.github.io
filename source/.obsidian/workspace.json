@@ -86,7 +86,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -147,6 +148,16 @@
               "type": "outline",
               "state": {
                 "file": "_posts/Istio/Istio学习3：Envoy Proxy.md"
+              }
+            }
+          },
+          {
+            "id": "d1c63889003453c1",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency"
               }
             }
           }
