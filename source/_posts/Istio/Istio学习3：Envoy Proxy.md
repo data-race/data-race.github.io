@@ -15,7 +15,7 @@ Envoy (直译为使节) 是由Lyft公司使用C++开发的一种高性能代理�
 
 这里首先需要解释什么是代理（Proxy），概念上，代理是一种处于客户端和服务器之间的通信中间件。
 
-![image](Pastedimage20230909214338.png)
+![image](img/Pastedimage20230909214338.png)
 
 由于代理处在客户端和服务器之间，所以可以为客户端和服务器之间的通信提供一些新的特性，例如通信安全、通信隐私、流量分发等。代理有两种类型：
 
@@ -30,7 +30,7 @@ Envoy是一种反向代理。
 
 ### Envoy中的概念
 下图中展示了一些概念
-![image](Pastedimage20230909215315.png)
+![image](img/Pastedimage20230909215315.png)
 
 - Listeners: 在Envoy中，Listener是负责侦听网络流量的组件。它定义一个IP地址和端口号（或Unix套接字路径）。当流量从客户端到达Listeners时，Listeners根据Routes对流量进行路由。
 - Routes：一旦代理服务器收到Downstream发来的流量，路由表会告诉代理服务器该将流量发送到哪个Upstream中，这就是Route的作用。Route通常由规则和条件组成，例如HTTP头或者匹配的URL路径等。
