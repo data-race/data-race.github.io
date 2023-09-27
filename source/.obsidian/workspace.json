@@ -13,14 +13,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/求职/2022秋招/2022秋招SmartX.md",
+                "file": "_posts/Istio/Istio学习4：让流量进入集群.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "8fbc55573bce4180",
+            "id": "8fd0763e77bed7d3",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -179,17 +179,24 @@
       "file-tree-alternative:File Tree Alternative Plugin": false
     }
   },
-  "active": "8fbc55573bce4180",
+  "active": "8fd0763e77bed7d3",
   "lastOpenFiles": [
+    "_posts/Istio/Istio学习4：让流量进入集群.md",
+    "istio-4-1.png.md",
+    "_posts/求职/2022秋招/2022秋招SmartX.md",
+    "img/istio-4-2.pic.jpg",
+    "img/istio-4-1.jpg",
+    "img/151695723880_.pic.jpg",
+    "img/171695723880_.pic.jpg",
+    "_posts/Istio/Istio学习4：Istio Gateway.md",
+    "_posts/Istio/Istio学习3：Envoy Proxy.md",
     "img/Pastedimage20230909215315.png",
     "img/Pastedimage20230909214338.png",
     "_posts/Istio/Istio学习2： 安装与简单使用.md",
-    "_posts/Istio/Istio学习3：Envoy Proxy.md",
     "_posts/Istio/Istio学习1：为什么需要Service Mesh.md",
     "_posts/求职/2022秋招/2022秋招Singularity.md",
     "_posts/求职/2022秋招/2022秋招蔚来基础架构.md",
     "_posts/求职/2022秋招/2022秋招亚麻.md",
-    "_posts/求职/2022秋招/2022秋招SmartX.md",
     "_posts/求职/2022秋招/2022秋招趋势科技.md",
     "_posts/求职/2022秋招/2022秋招阿里云.md",
     "_posts/实用技巧/Git CheatSheet.md",
@@ -197,11 +204,6 @@
     "img/learnistio5.png",
     "img/learnistio6.png",
     "img/learnistio1.png",
-    "img/learnistio3.png",
-    "img/learnistio4.png",
-    "img/Pastedimage20230807211356.png",
-    "img/Pasted image 20230807211341.png",
-    "img/Pastedimage20230807205440.png",
     "_posts/K8s概念学习/1.容器基本概念.md",
     "Pasted.md",
     "_posts/Kubernetes/Kubernetes Device Plugin机制.md",
@@ -218,8 +220,6 @@
     "_posts/实用技巧/Docker CheatSheet.md",
     "_posts/Anything From Anywhere/HTTPS,X.509，以及实践.md",
     "_posts/Anything From Anywhere/PyTorch模型分布式训练.md",
-    "_posts/环境配置/Windows开发环境配置.md",
-    "_posts/求职/2022商汤实习/开发及热插拔混部需求.md",
     "_posts/求职/2022微软实习",
     "img/Diagram4.svg.xml",
     "img/Diagram.svg.xml",
