@@ -19,7 +19,7 @@ Ingress point就像整个集群的守门人一样，对到来的流量进行分�
 
 因此，在复杂场景下，相比与Ingress Controller，Istio会更受到青睐。
 
-![img](img/istio-4-1.jpg)
+![img](istio-4-1.jpg)
 
 从概念上来说，Istio起到的作用就是一个反向代理（Reverse Proxy），接受流量，根据规则，将流量路由到对应的服务。
 在这一过程中，主要由Istio Gateway作为流量入口。
@@ -249,7 +249,7 @@ curl -v http://localhost/api/catalog -H "Host: webapp.istioinaction.io"
 这时就会用到mTLS(Mutual TLS)，即双向TLS认证。
 原理上并不复杂，除了客户端要验证服务端证书，服务端也会验证客户端证书。
 
-![img](img/istio-4-2.jpg)
+![img](istio-4-2.jpg)
 
 在Istio中，使用mTLS也比较简单，首先我们需要创建新的secret，在之前Https中，我们创建的secret只包含了tls.key和tls.crt，这里我们需要再添加一个ca.crt，用来验证客户端的证书。
 ```shell
