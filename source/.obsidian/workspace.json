@@ -1,0 +1,186 @@
+{
+  "main": {
+    "id": "9520f4a3bce4c2d0",
+    "type": "split",
+    "children": [
+      {
+        "id": "9f63efb70d59d64b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9c8bac57e1a56a67",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/Istio/Istio学习5：更精细的流量管理.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "265b33afe19f2ef0",
+    "type": "split",
+    "children": [
+      {
+        "id": "688cdda629cd5642",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "cbeaefbbb5ee0190",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "7a57e1e4e162cd4d",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "db405dfef751aea4",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          },
+          {
+            "id": "99e0d60a117fed07",
+            "type": "leaf",
+            "state": {
+              "type": "file-tree-view",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "345fa81b2b52fbdc",
+    "type": "split",
+    "children": [
+      {
+        "id": "14841c694d9c5fe9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "bf2f36c4b108a182",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "_posts/Istio/Istio学习5：更精细的流量管理.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "213e884c4d37630a",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "_posts/Istio/Istio学习5：更精细的流量管理.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "5327ac44a979cb08",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "290b1df8f379f888",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "_posts/Istio/Istio学习5：更精细的流量管理.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "file-tree-alternative:File Tree Alternative Plugin": false
+    }
+  },
+  "active": "9c8bac57e1a56a67",
+  "lastOpenFiles": [
+    "_posts/Istio/Istio学习3：Envoy Proxy.md",
+    "_posts/Istio/Istio学习5：更精细的流量管理.md",
+    "_posts/实用技巧/K8s Cheatsheet.md",
+    "_posts/实用技巧/Golang CheatSheet.md",
+    "_posts/Kubernetes/K8s热升级实践 1.17-1.18.md",
+    "_posts/K8s概念学习/1.容器基本概念.md",
+    "_posts/求职/2023RisingWave实习/实习总结.md",
+    "_posts/求职/2023RisingWave实习/VaultHA+自动Rotate.md",
+    "_posts/求职/2023RisingWave实习/VaultHA+为MySQL生成Credential.md",
+    "_posts/求职/2023RisingWave实习/VaultHA+ExternalStorage.md",
+    "_posts/求职/2023RisingWave实习/Vault+ExternalSecretOperator.md",
+    "_posts/求职/2023RisingWave实习/Vault+CertManager.md",
+    "_posts/求职/2023RisingWave实习/RisingWavecloud理解.md",
+    "_posts/求职/2023RisingWave实习/Proj目标.md",
+    "_posts/求职/2023RisingWave实习/EKSServiceAccount绑定IAMRole.md",
+    "_posts/求职/2023RisingWave实习/DesignReview.md",
+    "_posts/求职/2022微软实习/AtlasModelLanguage.md",
+    "_posts/求职/2022微软实习/Howtocreateascan.md",
+    "_posts/求职/2022微软实习/Purview文档.md",
+    "_posts/求职/2022商汤实习/开发及热插拔混部需求.md",
+    "_posts/求职/2022商汤实习/商汤实习日记.md",
+    "_posts/求职/2022商汤实习/商汤实习总结.md",
+    "_posts/求职/2022商汤实习/关于开发机分区污点可选功能添加的技术方案.md",
+    "_posts/Istio/Istio学习2： 安装与简单使用.md"
+  ]
+}
