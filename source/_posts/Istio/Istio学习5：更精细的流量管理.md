@@ -20,7 +20,7 @@ date: 2023-10-08 10:00:00
 新版本，即绿色版本，只是部署在生产环境中，但不接受流量，此时我们可以对新版本进行测试、验证、监控。
 然后在合适的时机，将流量切换到新版本的服务中，完成发布(Release)。
 
-![img1](istio-5-1.png)
+![img1](img/istio-5-1.png)
 
 ## 使用Istio减少发布风险
 
@@ -29,7 +29,7 @@ date: 2023-10-08 10:00:00
 例如，我们可以将内部员工的流量切换到新版本的服务中，然后再将外部用户的流量切换到新版本的服务中。
 或者将某些特定的用户的流量切换到新版本的服务中，然后再将所有用户的流量切换到新版本的服务中。
 
-![img2](istio-5-2.png)
+![img2](img/istio-5-2.png)
 
 这种方式通常被称之为Canary release。
 总的来说，就是在生产环境中，先部署新版本的服务，然后逐步将流量切换到新版本的服务中，在此过程中，观测新版本服务是否有问题；不断迭代这个过程，最终完成发布。
@@ -272,7 +272,7 @@ curl http://localhost/items -H "Host: catalog.istioinaction.io" -H "x-istio-coho
 我们也可以通过设置DestinationRule和VirtualService来控制服务到服务的流量。
 
 例如在下图的场景中:
-![image](istio-5-3.png)
+![image](img/istio-5-3.png)
 
 首先我们删除之前创建的所有资源，并且创建WebApp服务。
 ``` shell
@@ -418,7 +418,7 @@ k apply -f services/forum/kubernetes/forum-all.yaml
 ```
 
 由于我们设置了outboundTrafficPolicy.mode=REGISTRY_ONLY，因此forum服务只能访问服务网格中的服务，而不能访问服务网格之外的服务，如下图所示:
-![img4](istio-5-4.png)
+![img4](img/istio-5-4.png)
 
 测试:
 ```shell

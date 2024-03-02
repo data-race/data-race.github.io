@@ -19,7 +19,7 @@ Ingress point就像整个集群的守门人一样，对到来的流量进行分�
 
 因此，在复杂场景下，相比与Ingress Controller，Istio会更受到青睐。
 
-![img](istio-4-1.jpg)
+![img](img/istio-4-1.jpg)
 
 从概念上来说，Istio起到的作用就是一个反向代理（Reverse Proxy），接受流量，根据规则，将流量路由到对应的服务。
 在这一过程中，主要由Istio Gateway作为流量入口。
