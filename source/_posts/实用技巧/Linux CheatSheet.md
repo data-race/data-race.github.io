@@ -203,3 +203,17 @@ sudo nload <DEVICE> #for example, sudo nload eth0
 # 使用 cmd | code - 经常失败
 cmd > t; code t; sleep 1; rm t
 ```
+
+
+## 在Curl中使用client cert
+
+``` bash
+# 如果我们的证书格式是PFX，那么首先将证书转换为PEM格式
+openssl pkcs12 -in client-cert.pfx -out clien-cert.pem -nodes --clcerts
+
+# 从PFX证书中提取CA Cert
+openssl pkcs12 -in client-cert.pfx -cacerts -nokeys -out cacert.pem
+
+# 后面就可以使用证书
+curl --cacert ./cacert.pem --cert client-cert.pem -X POST https://foo-bar.com --header 'content-type: application/json' --data '{"foo":"bar"}'
+```

@@ -13,9 +13,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/Istio/Istio学习2： 安装与简单使用.md",
+                "file": "_posts/实用技巧/Linux CheatSheet.md",
                 "mode": "source",
                 "source": false
+              }
+            }
+          },
+          {
+            "id": "47ba810e65cc06bf",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.6.5"
               }
             }
           }
@@ -73,8 +83,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -94,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/Istio/Istio学习2： 安装与简单使用.md",
+                "file": "_posts/实用技巧/Linux CheatSheet.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +120,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/Istio/Istio学习2： 安装与简单使用.md",
+                "file": "_posts/实用技巧/Linux CheatSheet.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +143,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/Istio/Istio学习2： 安装与简单使用.md"
+                "file": "_posts/实用技巧/Linux CheatSheet.md"
               }
             }
           }
@@ -156,14 +165,18 @@
       "file-tree-alternative:File Tree Alternative Plugin": false
     }
   },
-  "active": "9c8bac57e1a56a67",
+  "active": "cbeaefbbb5ee0190",
   "lastOpenFiles": [
+    "_posts/实用技巧/Git CheatSheet.md",
+    "_posts/实用技巧/Docker CheatSheet.md",
+    "_posts/实用技巧/K8s Cheatsheet.md",
+    "_posts/实用技巧/Linux CheatSheet.md",
+    "_posts/环境配置/Zsh 配置.md",
+    "_posts/Istio/Istio学习2： 安装与简单使用.md",
     "_posts/Istio/Istio学习3：Envoy Proxy.md",
     "_posts/Istio/Istio学习4：让流量进入集群.md",
     "_posts/Istio/Istio学习5：更精细的流量管理.md",
-    "_posts/Istio/Istio学习2： 安装与简单使用.md",
     "_posts/Istio/Istio学习1：为什么需要Service Mesh.md",
-    "_posts/实用技巧/K8s Cheatsheet.md",
     "_posts/实用技巧/Golang CheatSheet.md",
     "_posts/Kubernetes/K8s热升级实践 1.17-1.18.md",
     "_posts/K8s概念学习/1.容器基本概念.md",
@@ -179,10 +192,6 @@
     "_posts/求职/2023RisingWave实习/DesignReview.md",
     "_posts/求职/2022微软实习/AtlasModelLanguage.md",
     "_posts/求职/2022微软实习/Howtocreateascan.md",
-    "_posts/求职/2022微软实习/Purview文档.md",
-    "_posts/求职/2022商汤实习/开发及热插拔混部需求.md",
-    "_posts/求职/2022商汤实习/商汤实习日记.md",
-    "_posts/求职/2022商汤实习/商汤实习总结.md",
-    "_posts/求职/2022商汤实习/关于开发机分区污点可选功能添加的技术方案.md"
+    "_posts/求职/2022微软实习/Purview文档.md"
   ]
 }
