@@ -73,13 +73,11 @@ ln -s /usr/include/clang-c /usr/lib/llvm-10/include/clang-c
 ```
 
 然后当我们#include<clang-c/Index.h>时，vscode就可以解析了
-![](img/EE69DB22-2C67-4FD7-9F89-C213B5157A70.png
-)
+![](img/EE69DB22-2C67-4FD7-9F89-C213B5157A70.png)
 
 ## 项目配置
 
-![](img/AC560F9A-E69E-428C-92D1-5889CC4F9FCC.png
-)
+![](img/AC560F9A-E69E-428C-92D1-5889CC4F9FCC.png)
 我的项目的结构是这样，include包含公用头文件，代码在src中，lib中放一些第三方的包，比如argparser之类的，如果有的话。似乎头文件放到include中，就可以自动找到，不需要额外处理，但是在编译时仍然需要特殊处理一下。
 
 ## G++ 编译

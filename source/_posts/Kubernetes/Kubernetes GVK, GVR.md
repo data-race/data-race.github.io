@@ -9,8 +9,7 @@ date: 2023-07-17 20:17:26
 #kubernetes 
 ## GVK和GVR
 
-![](img/D0BD589C-746E-43A5-9434-E1C9900DAFA5.png
-)
+![](img/D0BD589C-746E-43A5-9434-E1C9900DAFA5.png)
 
 - K8s 中的API Group是相关功能的集合，每个group包含一个或多个version，例如core, batch, apps，core是一个特殊的资源组，他没有组名，也可以称为GroupLess
 - Version是资源的版本，例如v1, v1alpha1, v1beta2等，不同的version含义不同

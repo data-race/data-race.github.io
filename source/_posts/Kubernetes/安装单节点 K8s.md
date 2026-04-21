@@ -144,8 +144,7 @@ kubectl apply -f https://raw.githubusercontent.com/coreos/flannel/master/Documen
 ```
 
 + 安装成功
-![](img/Pastedimage20221021122018.png
-)
+![](img/Pastedimage20221021122018.png)
 
 
 

@@ -92,8 +92,7 @@ func (r *ApiExampleReconciler) SetupWithManager(mgr ctrl.Manager) error {
 }
 ```
 这里应该也可以使用更简单的Label来进行过滤，因为ListOption也允许使用LabelSelector来过滤。
-![](img/00C78CC4-CC7D-41FE-BCEC-58EAC49DE1FA.png
-)
+![](img/00C78CC4-CC7D-41FE-BCEC-58EAC49DE1FA.png)
 
 ## 更新状态
 我们已经获取了CronJob创建的所有子任务，下一步就是更新CronJob的状态了，首先将这些子任务按照完成情况分类，然后将最新的子任务调度时间做为CronJob的Status中的LastScheduleTime，并且更新Active的任务队列：

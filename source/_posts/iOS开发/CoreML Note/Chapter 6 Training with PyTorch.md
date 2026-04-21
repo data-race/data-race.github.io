@@ -48,8 +48,7 @@ model.eval()
 
 这里要注意的一些地方有input _names和output_names和下一步转换时用到的参数要一致。在输入是图片时，input_names必须是image，否则会被当作MultiArray处理。
 导出之后，我们用Netron打开.onnx文件，就可以看到我们的模型：
-![](img/23FBCB5E-8848-4BD5-925B-0E3F65C80C3D.png
-)
+![](img/23FBCB5E-8848-4BD5-925B-0E3F65C80C3D.png)
 
 ## Step 3: Onnx to cormel
 我们用pip安装onnx_coreml，然后将onnx转化为mlmodel，在实际测试中，这一步如果不在macOS系统上做，会段错误，原因不明。
@@ -65,7 +64,6 @@ model = convert(model='alexnet.onnx', minimum_ios_deployment_target='13',image_i
 Convert函数有很多参数。
 
 然后我们用Xcode打开模型文件，就可以看到相关的信息，就可以在应用中使用模型了。
-![](img/EA6BFE2A-9CEC-4EB3-8786-4BE26C5855A5.png
-)
+![](img/EA6BFE2A-9CEC-4EB3-8786-4BE26C5855A5.png)
 
 我在实际应用中，效果并不是很好。虽然模型在测试数据集上的准确度有80%，但是实际应用中只有60%左右。我猜测是数据集的原因，CIFAR中的图片为了节省空间，都是32x32大小的，而ios摄像头采集的图片质量很高。因此，可以得出的结论有：有些数据集只适合检测算法和模型是否有效，而不适合实际应用。

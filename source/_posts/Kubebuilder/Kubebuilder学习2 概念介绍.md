@@ -96,11 +96,9 @@ func main() {
 * Group & Version： Group是一组功能的集合，例如Kubeflow是一个Group，它由多种operator构成，Group有不同的版本。
 * Kind & Resources：每一个Group都包含了多个API，每个API称为一个Kind，不同版本的Group之间，Kind可能会发生变化。对于Kind的使用就是Resource，或者说Resource是Kind的实例，例如Kind Pod所对应的Resource就是pods。
 * Scheme：当我们特指一个在指定版本Group中的Kind时，我们称之为GroupVersionKind（GVK），如果是资源的话就叫GVR。在框架中，每个GVK都对应包中的一个Go类型：
-![](img/4E866F72-1B4F-4EC4-A1C6-77F7E4C880CE.png
-)
+![](img/4E866F72-1B4F-4EC4-A1C6-77F7E4C880CE.png)
 如何将Kind和Go Type对应在一起依赖Scheme，例如将Json/Yaml解析成我们的Go type就是依赖Scheme，在groupversion_info.go中可以看到Scheme是如何被构建的：
-![](img/A20427E0-4E79-4EAC-888F-80F2DB6775A1.png
-)
+![](img/A20427E0-4E79-4EAC-888F-80F2DB6775A1.png)
 
 
 AddToScheme在main中被调用，将我们定义的Kind的结构信息告诉集群。从而完成Kind的Register。

@@ -10,8 +10,7 @@ date: 2023-07-17 20:17:27
 
 ## 背景
 使用Yaml清单可以帮我们轻松声明一个资源对象，但是在创建一个具体服务的过程中，使用YAML文件仍然有一些不足之处。这些文件中有许多重复，例如在创建Deployment和Service时，在两个对象对应的Yaml清单中，都有相同的label selector，相同的端口号等。
-![](img/截屏2020-09-15下午6.55.39.png
-)
+![](img/截屏2020-09-15下午6.55.39.png)
 我们希望有一种方法，可以定义类似于container.name或者container.port之类的变量。我们在Yaml文件中直接使用这些变量，而这些变量的值在一处定义，如果要修改，那么只需要在一处进行修改，而使用到这个变量的地方会自动的更新。
 
 ## Helm
@@ -57,8 +56,7 @@ helm init --service-account tiller
 ```
 
 在初始化过程中遇到tiller镜像无法拉取的问题：
-![](img/207E0F0B-4562-4B4D-903C-6A8BD04EFE8E.png
-)
+![](img/207E0F0B-4562-4B4D-903C-6A8BD04EFE8E.png)
 
 有两种解决方案，1是使用阿里云镜像仓库拉取镜像，修改tag。
 ``` shell
@@ -72,25 +70,19 @@ helm init --upgrade -i registry.cn-hangzhou.aliyuncs.com/google_containers/tille
 ```
 
 + 初始化成功
-![](img/22691D48-6D1C-4D78-B988-70C9AFBADA10.png
-)
+![](img/22691D48-6D1C-4D78-B988-70C9AFBADA10.png)
 
 ## Helm Demo
 我们尝试用helm安装一个应用
-![](img/60542AE9-E81A-471E-A49D-EA0B7E30FB40.png
-)
+![](img/60542AE9-E81A-471E-A49D-EA0B7E30FB40.png)
 这个简单的helm chart有一个Chart.yaml记录整个应用的版本信息。有一个values.yaml定义若干变量
-![](img/472C0499-1FE5-4D7E-9B98-1EA21AC1237B.png
-)
+![](img/472C0499-1FE5-4D7E-9B98-1EA21AC1237B.png)
 那么在template下的deployment和service中，可以直接使用这些变量：
-![](img/AC1D648E-8856-4BCC-89FA-D84763521AFA1.png
-)
+![](img/AC1D648E-8856-4BCC-89FA-D84763521AFA1.png)
 启动应用：
-![](img/11C1B802-D8B7-495A-B71D-985D624BBD27.png
-)
+![](img/11C1B802-D8B7-495A-B71D-985D624BBD27.png)
 打开localhost:32229就可以看到
-![](img/362156F9-2E01-476E-AA0B-A1B2B185EEF1.png
-)
+![](img/362156F9-2E01-476E-AA0B-A1B2B185EEF1.png)
 
 
 

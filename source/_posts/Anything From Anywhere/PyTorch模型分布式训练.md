@@ -79,8 +79,7 @@ DP可以被看作是参数服务器的实现
 -   所有Worker反向传播
 -   Worker-0收集梯度，更新模型
 
-![](img/Pastedimage20221030165644.png
-)
+![](img/Pastedimage20221030165644.png)
 
 ---
 ## 多机多卡: Distributed Data Parallel

@@ -182,8 +182,7 @@ dir=$(cd -P -- "$(dirname -- "$0")" && pwd -P)
 
 ## NFS 配置
 
-![](img/CentOS7下yum安装和配置NFS-Zhanming'sblog.pdf
-)
+![](img/CentOS7下yum安装和配置NFS-Zhanming'sblog.pdf)
 
 ## 查看网络吞吐
 

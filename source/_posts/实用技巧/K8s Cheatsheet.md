@@ -146,8 +146,7 @@ kubectl patch deployment <deployment-name> -p \
 ```
 
 ### 怎么使用configmap挂载文件
-![](img/wecom-temp-8da02404eb88503993e1ae68a32bdf5b.png
-)
+![](img/wecom-temp-8da02404eb88503993e1ae68a32bdf5b.png)
 
 ### 为Secret生成base64
 ``` shell

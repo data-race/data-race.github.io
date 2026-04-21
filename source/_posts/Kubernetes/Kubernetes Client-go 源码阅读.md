@@ -30,8 +30,7 @@ client-go
 
 ## Client
 
-![](img/440E8566-BB52-4759-9FD2-A559FF4408E5.png
-)
+![](img/440E8566-BB52-4759-9FD2-A559FF4408E5.png)
 
 - RESTfulClient是最基本的Client，实现了RESTful风格的Api，是其他Client的基础。
 ``` go
@@ -124,8 +123,7 @@ func (d *DiscoveryClient) ServerResourcesForGroupVersion(groupVersion string) (r
 
 ## Informer机制
 Kubernetes系统中，组件之间通过HTTP进行通信，为了保障消息的实时性，有效性等，Kubernetes采用了Informer机制，Kubernetes的其他组件都是使用Informer机制和API Server进行通信。
-![](img/arch.jpeg
-)
+![](img/arch.jpeg)
 ### Reflector和 DeltaFIFO
 - Reflector用于监控(Watch)指定的资源，首先Reflector通过List获取资源的所有数据，并将其放入DeltaFIFO队列中，然后通过Watch操作，和API Server建立HTTP长连接，接受资源变更的事件(ADD, UPDATE, DELETE)，然后将对应的资源对象更新到本地缓存DeltaFIFO中，并更新资源的resourceVersion（和API的Version作区分）。
 - DeltaFIFO是一个队列，保存有关资源对象的操作类型
@@ -163,8 +161,7 @@ type ResourceEventHandler interface {
 ### Indexer
 Indexer是Client-go的本地缓存，其中存储的资源数据和Etcd保持一致，由Informer进行写入。实际上Reconciler的Reconcile中，通过ObjectKey来获得资源数据的操作并没有和API Server进行通信，而是从Indexer中获取，这种操作可以有效降低API Server的压力。
 
-![](img/url.png
-)
+![](img/url.png)
 
 
 

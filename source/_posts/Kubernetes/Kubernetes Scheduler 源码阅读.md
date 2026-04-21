@@ -14,8 +14,7 @@ date: 2023-07-17 20:17:27
 ## 介绍
 kube-scheduler是k8s的核心组件之一，主要负责整个几千年的Pod资源对象的调度，根据内置或者扩展的调度算法(预选与优选调度算法)，将未调度的Pod调度到最优的工作节点上，从而更加合理，更加充分的利用集群的资源。
 
-![](img/图片1.png
-)
+![](img/图片1.png)
 schduler的实现位于 `kubernetes/pkg/scheduler`目录下
 ```shell
 scheduler

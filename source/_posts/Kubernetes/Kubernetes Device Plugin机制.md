@@ -12,8 +12,7 @@ date: 2023-07-17 20:17:26
 ## Kubelet 与 Device Plugin
 Device Plugin将被作为DaemonSet部署，每个节点上都会运行一个Device Plugin的实例。Device Plugin通过将向Kubelet注册一个gRPC服务，提供ListAndWatch和Allocate等方法，Kubelet调用这些方法可以进行资源的状态查询和分配。
 
-![](img/device_plugin.png
-)
+![](img/device_plugin.png)
 
 
 ## Device Plugin
@@ -154,8 +153,7 @@ func (m *NvidiaDevicePlugin) GetPreferredAllocation(ctx context.Context, r *plug
 
 nvidia-docker的容器运行时会在启动容器之前调用prestart hook，读取这些注入的device ID，这个hook会调用nvidia-container-cli，分析出需要映射的GPU设备、库文件、可执行文件，在容器启动后挂载带容器内部(例如会将设备挂载到/dev下)，以达到配置好GPU环境的目的。
 
-![](img/1014716-20191015192117663-341668066.png
-)
+![](img/1014716-20191015192117663-341668066.png)
 
 ```go
 // Allocate which return list of devices.
@@ -190,8 +188,7 @@ func (m *NvidiaDevicePlugin) Allocate(ctx context.Context, reqs *pluginapi.Alloc
 容器启动之前的钩子
 
 ## Nvidia Docker Runtime
-![](img/cuda_gpu_dirver.png
-)
+![](img/cuda_gpu_dirver.png)
 
 
 

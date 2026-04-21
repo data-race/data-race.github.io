@@ -8,8 +8,7 @@ date: 2023-07-17 20:17:26
 ---
 #kubernetes 
 
-![](img/1*A_3DbP7Ee3ZbSyQ3x6pbNQ.png
-)
+![](img/1*A_3DbP7Ee3ZbSyQ3x6pbNQ.png)
 
 阿里云二面时，面试官问到了Deployment和StatefulSet的区别，Deployment通过ReplicaSet来管理Pod的多个副本，同时Deployment提供了对历史版本的存储，用户可以通过指令来回滚Deployment。但是StatefulSet因为没有使用过，所以不太理解。
 

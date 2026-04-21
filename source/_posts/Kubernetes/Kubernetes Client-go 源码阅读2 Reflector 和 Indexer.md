@@ -285,6 +285,5 @@ func (c *threadSafeMap) IndexKeys(indexName, indexedValue string) ([]string, err
 
 总而言之，Indexer的作用是缓存资源对象，而且它通过构建多维索引的方式，可以大大加快查找的速度。
 
-![](img/233474baffdc2e36733d95cee393b8fb.webp
-)
+![](img/233474baffdc2e36733d95cee393b8fb.webp)
 关于Indexer讲解比较详细的博客[client-go 之 Indexer 的理解-技术圈](https://jishuin.proginn.com/p/763bfbd2c2bb)

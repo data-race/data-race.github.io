@@ -11,15 +11,13 @@ date: 2023-07-17 20:17:29
 
 ## 概要
 笔记中整理了一些关于CoreML，ARKit，MapKit的应用。在运行这些项目时，往往需要编辑这些项目的的Bundle Identifier，以及设置开发者的Account。
-![](img/6BEFDA89-DEFA-4002-AD5D-691F46847678.png
-)
+![](img/6BEFDA89-DEFA-4002-AD5D-691F46847678.png)
 
 ## 1. 文本检测应用
 + 项目地址：https://github.com/tucan9389/TextDetection-CoreML
 + 关键字： Vision，TextDetect
 + 项目效果：
-![](img/7DEFFBBA-FB5F-4CF0-89DC-118E81B967D1.png
-)
+![](img/7DEFFBBA-FB5F-4CF0-89DC-118E81B967D1.png)
 
 + 功能描述：绘制出当前摄像头捕捉的视频中所存在文本的区域。
 + 技术描述：主要用到了Vision中自带的文本检测模型，没有使用自训练的数据集和模型。通过向
@@ -67,8 +65,7 @@ func visionRequestDidComplete(request: VNRequest, error: Error?) {
 + 项目地址：https://github.com/tucan9389/PoseEstimation-CoreML
 + 关键字： Coreml, Vison, 图像分割
 + 项目效果：
-![](img/5A2C4E23-7633-4C55-92A3-5CA694A7C724.png
-)
+![](img/5A2C4E23-7633-4C55-92A3-5CA694A7C724.png)
 + 功能描述：将图片分割为若干自定义的部分。
 + 技术描述：使用了Apple提供的DeepLabV3图像分割模型([Machine Learning - Models - Apple Developer](https://developer.apple.com/machine-learning/models/))，该模型的输入是一个513 * 513大小的图像，输出是一个513 * 513大小的Int型矩阵，每个Int值代表这个像素属于哪类物体。应用可以对视频进行实时分割，也可以对静态图像进行分割。这个应用和上一个文本检测应用的作者一样，所以代码的逻辑基本一样，只是修改了一些和模型有关的代码。
 + 项目总结： 该项目也比较简单，和上一个项目相比使用了预训练好的模型，可以学习如何在一个xcode项目中导入模型文件。此外该项目使用TabBarController来组织多个页面，需要更多有关UI设计的知识。
@@ -78,8 +75,7 @@ func visionRequestDidComplete(request: VNRequest, error: Error?) {
 + 项目地址：https://github.com/tucan9389/DepthPrediction-CoreML
 + 关键字： CoreML，Vision，深度检测
 + 项目效果：
-![](img/1DB2409B-16DF-4350-9D8B-6333A1A3ED41.png
-)
+![](img/1DB2409B-16DF-4350-9D8B-6333A1A3ED41.png)
 
 + 功能描述：检测图像的景深信息。
 + 技术描述：使用了Apple提供的景深检测模型FCRN([Machine Learning - Models - Apple Developer](https://developer.apple.com/machine-learning/models/))
@@ -95,8 +91,7 @@ func visionRequestDidComplete(request: VNRequest, error: Error?) {
 
 + 功能描述：通过几种不同的模型，对原始图片进行边缘提取
 + 技术描述：使用自己训练的模型进行边缘提取。模型的信息如下：
-![](img/830C5F03-A4F1-4795-9F0A-D4BACDD3A645.png
-)
+![](img/830C5F03-A4F1-4795-9F0A-D4BACDD3A645.png)
 输出有5个Array，对应用户选择的5种不同的模型。每个Array的类型是Double 1 x 1 x 1 x 500 x 500 array，和输入是相同的。
 然后对每个输出值用sigmoid进行激活，转换成灰度图：
 ``` swift
@@ -122,8 +117,7 @@ func visionRequestDidComplete(request: VNRequest, error: Error?) {
 + 项目地址: https://github.com/hollance/YOLO-CoreML-MPSNNGraph
 + 关键词： CoreML, Vision,  Keras, coremltools, 图像物体检测
 + 项目效果：
-![](img/780D2A81-397C-4BFE-979B-1F68A0E921A4.png
-)
+![](img/780D2A81-397C-4BFE-979B-1F68A0E921A4.png)
 
 + 功能描述：  实时地从捕捉到的图像中检测出包括人、汽车、猫、狗等在内的多种物体。
 + 技术描述：  该应用复现了一种用于物体检测的神经网络YOLO，这个网络十分复杂。使用Keras进行训练模型，并使用coremltools将Keras的模型转化为所需的mlmodel格式模型。使用的数据集是http://host.robots.ox.ac.uk/pascal/VOC/。最终得到的模型的输入是：416*416大小的图片，输出是125*13*13大小的Array，给出了物体的位置等信息。值得一提的是该应用使用两种发起推断的方法，分别是使用Vision的request和使用plain CoreML
@@ -205,8 +199,7 @@ func predictUsingVision(pixelBuffer: CVPixelBuffer, inflightIndex: Int) {
 + 项目地址：https://github.com/cocoa-ai/SentimentCoreMLDemo
 + 关键词： CoreML,  sklearn, coremltools, 文本分类
 + 项目效果：
-![](img/1AD96A82-3E27-4A42-9C2B-CBE46714FC56.png
-)
+![](img/1AD96A82-3E27-4A42-9C2B-CBE46714FC56.png)
 + 功能描述：根据文本的情感将文本分成积极的(postive)和消极的(negative)两类。
 + 技术描述：该文本分类模型使用的数据集是 [Homework:  Sentiment Analysis](http://boston.lti.cs.cmu.edu/classes/95-865-K/HW/HW3/)的HW3中的数据集，有1392段短文本，被标注了Postive或者Negative的标签。使用sklearn中的LinearSVC进行训练，并通过Apple提供的coremltools工具包将模型转化成可以供iOS app使用的mlmodel格式。这个模型的输入是一个Dict(String->Double)，给出了文本的词频表示。输出是Dict(String->Double)，给出了类别和概率。进行推断的过程是比较简单的，直接调用模型类的prediction方法就可以：
 ``` swift
@@ -240,8 +233,7 @@ func predictSentiment(from text: String) -> Sentiment {
 + 项目地址： https://github.com/akimach/GestureAI-CoreML-iOS
 + 关键词： CoreML，CoreMotion
 + 项目效果：
-![](img/3F995D9C-2AF3-4810-964D-0DE3B14F2244.png
-)
+![](img/3F995D9C-2AF3-4810-964D-0DE3B14F2244.png)
 
 + 功能描述： 按住应用中的按钮，然后拿着手机做动作，应用可以识别出手机的运动轨迹（圆、矩形、三角形）
 + 技术描述： 当用户按下按钮时，会不断从MotionManager初获取运动传感器的数据：
@@ -274,8 +266,7 @@ func predictSentiment(from text: String) -> Sentiment {
 + 项目地址：https://github.com/laanlabs/ARBrush
 + 关键字： ARKit, metal, SceneKit
 + 项目效果：
-![](img/CFF1C9C4-B43B-471F-BDE9-F4D4DC6579AF.png
-)
+![](img/CFF1C9C4-B43B-471F-BDE9-F4D4DC6579AF.png)
 + 功能介绍：  可以通过按钮来增加景深，然后按住屏幕并移动手机，就可以画出想要画的图形。
 + 项目总结： 代码有点复杂，需要学习相关知识后才能理解代码运作的流程。
 
@@ -284,8 +275,7 @@ func predictSentiment(from text: String) -> Sentiment {
 + 项目地址： https://github.com/hanleyweng/CoreML-in-ARKit
 + 关键词： CoreML， ARKit，SceneKit
 + 项目效果： 
-![](img/E0C522DD-A541-48EA-B0E8-DC8293FE0A82.png
-)
+![](img/E0C522DD-A541-48EA-B0E8-DC8293FE0A82.png)
 
 + 功能介绍：点击屏幕，将识别到的物体的标签放置在屏幕中心指定的场景位置。
 + 技术介绍：主要是看点击屏幕时的处理函数：

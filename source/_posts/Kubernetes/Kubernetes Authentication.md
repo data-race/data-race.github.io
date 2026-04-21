@@ -18,8 +18,7 @@ K8s中的API Server是一个非常重要的组件，它直接和etcd进行通信
 
 这三种认证机制都可以通过webhook进行扩展，这也体现了K8s强大的扩展能力。在基础设施方面，可以通过CNI,CSI,CRI扩展网络，存储和容器运行时。可以通过Device Plugin添加新的设备。可以通过Operator添加新的CRD和控制器，可以通过Scheduler Extender的方式，扩展调度器的调度能力。
 本文主要介绍这三种权限控制机制。
-![](img/Pastedimage20221028141550.png
-)
+![](img/Pastedimage20221028141550.png)
 ## Authentication 认证
 
 在开启HTTPs服务后，所有的请求都需要经过认证。不管请求是来自集群中节点上正在运行的Kubelet，运行着的Controller，还是来自远程的某个租户，都需要经过身份认证，才能访问Api server的CRUD方法。

@@ -29,8 +29,7 @@ WSL选择运用较为广泛的Ubuntu，首先需要开启Windows Features。再T
 ## Windows Terminal 配置
 
 在微软应用商店中安装Windows Terminal，安装后，会自动添加Powershell和Ubuntu的Profile。但是Ubuntu默认使用的是Bash，在Profile中设置使用zsh
-![](img/Pastedimage20230718153243.png
-)
+![](img/Pastedimage20230718153243.png)
 将`Command Line` 修改为`ubuntu2204.exe -c zsh` 即可。
 
 
@@ -75,8 +74,7 @@ function kg { kubectl get $args }
 
 效果：
 
-![](img/Pastedimage20230718154358.png
-)
+![](img/Pastedimage20230718154358.png)
 
 
 
@@ -97,8 +95,7 @@ function kg { kubectl get $args }
 
 ### 环境变量设置
 
-![](img/Pastedimage20230718154914.png
-)
+![](img/Pastedimage20230718154914.png)
 
 类似于Linux中的环境变量，只是方式不一样。
 Linux中通过在`.zshrc`或者`/etc/profile` 中`export KEY=VALUE`来导入环境变量，Windows则是在用户图形界面中创建新的环境变量。

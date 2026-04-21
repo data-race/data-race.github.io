@@ -15,15 +15,13 @@ date: 2023-07-17 20:17:29
 
 我们安装好Anaconda后，可以创建Python环境，并在环境中安装包。可以使用Anaconda Navigator提供的GUI界面安装包，也可以在终端中切换到指定环境再使用Pip来进行安装。
 
-![](img/36C0189B-46C6-4E89-9B4C-82F00ED05BD6.png
-)
+![](img/36C0189B-46C6-4E89-9B4C-82F00ED05BD6.png)
 
 在Navigator中，可以选择环境，并在指定环境中安装Python工具包。
 对环境本身也可以进行创建删除等操作。
 
 ## 在环境中使用Jupyter notebook
-![](img/6EAFCBAB-6808-4BD7-AB2F-09752D08CA65.png
-)
+![](img/6EAFCBAB-6808-4BD7-AB2F-09752D08CA65.png)
 在Home页面下，可以在指定环境中启动应用，我们启动Jupyter notebook应用。这是一个在浏览器中使用的开发环境，可以开发运行代码，使用交互式的方法可以实时的展示出某一段代码的输出。
 
 我们在mlenv环境下启动Jupyter notebook，并在自己的工作目录下创建笔记本文件，用浏览器打开，就可以使用Jupyter notebook进行开发。在Jupyter notebook中，代码被组织成一个个cell，编写好一段代码后就可以单独运行这个cell。常见的操作：
@@ -33,8 +31,7 @@ date: 2023-07-17 20:17:29
 * Shift Tab tab：弹出浮动式文档
 * ？：在函数前加上？并运行可以查看函数的文档说明
 
-![](img/85DFB5E6-8F2B-489D-BB25-B3AACA366F1A.png
-)
+![](img/85DFB5E6-8F2B-489D-BB25-B3AACA366F1A.png)
 
 在Jupyer Notebook中，每运行一个cell，就会有与之匹配的输出。
 
@@ -52,31 +49,25 @@ train_data = tc.image_analysis.load_images("/Users/cui/WorkSpace/project/ios-pla
 
 在Jupyter中，我们可以以可视化的方式看到数据集：
 
-![](img/815B56C2-9A33-4E0A-882B-CC70B3D7FD2F.png
-)
+![](img/815B56C2-9A33-4E0A-882B-CC70B3D7FD2F.png)
 
 * 为数据集加上标签：
 
-![](img/4CEC6F58-14AF-4046-AF48-C51146EA2BC8.png
-)
+![](img/4CEC6F58-14AF-4046-AF48-C51146EA2BC8.png)
 
 * 可以进行一个类别统计：
-![](img/4443844A-CAB0-4BD7-B2F9-9B8C69420ACD.png
-)
+![](img/4443844A-CAB0-4BD7-B2F9-9B8C69420ACD.png)
 
 * 进行迁移学习，使用的基学习器是VisionFeaturePrint_Screen，在第三章中介绍过，改模型将图片提取成2048维的特征向量，再进行对数回归。
 
-![](img/361D5776-D185-4C63-882F-B037623D8696.png
-)
+![](img/361D5776-D185-4C63-882F-B037623D8696.png)
 
 * 保存/加载模型，进行测试
-![](img/13C33A84-D5EC-4408-904F-631CCA48A8EE.png
-)
+![](img/13C33A84-D5EC-4408-904F-631CCA48A8EE.png)
 
 
 * 将模型导出为coreml的格式
-![](img/D89BED4F-99DB-4E63-9E75-E024693A9195.png
-)
+![](img/D89BED4F-99DB-4E63-9E75-E024693A9195.png)
 
 
 ## 第四章总结
@@ -85,15 +76,12 @@ train_data = tc.image_analysis.load_images("/Users/cui/WorkSpace/project/ios-pla
 ## 进阶使用
 在第五章，我们基于SqueezeNet训练零食分类器，同时，我们也将学到Python中一些可视化工具包的使用技巧。
 和之前的训练流程一致，只是把训练分类器时使用的基分类器改为SqueezeNet
-![](img/DE893E3C-363D-408A-AA86-4DB293C209E1.png
-)
+![](img/DE893E3C-363D-408A-AA86-4DB293C209E1.png)
 在实际操作的过程中，需要从苹果的服务器将squeezenet这个模型完全下载下来，由于网络原因，下载一段时间就会抛出异常。需要多试几次：
 下载成功后，就会开启训练流程：
-![](img/2D06E310-2E53-4E2D-AB17-A895722DF949.png
-)
+![](img/2D06E310-2E53-4E2D-AB17-A895722DF949.png)
 在训练过程中，TuriCreate会贴心的提示你的迭代次数太少，还没有到达最优的情况，因此可以根据这个提示来增加迭代次数。实际测试，135次是一个较好的数字，再大会过拟合。测试的方法也和之前一样
-![](img/F97C843C-CC43-4717-88F0-77E81F25235D.png
-)
+![](img/F97C843C-CC43-4717-88F0-77E81F25235D.png)
 不过实测这个模型效果不如之前的。
 
 ## 可视化
@@ -124,8 +112,7 @@ def plot_confusion_matrix(conf, labels, figsize=(8,8)):
 ```
 
 这两个函数分别从混淆矩阵中提取信息，并进行可视化。
-![](img/86805104-898F-4E2E-920B-EED6C3D916BE.png
-)
+![](img/86805104-898F-4E2E-920B-EED6C3D916BE.png)
 
 
 ## 总结

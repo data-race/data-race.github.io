@@ -99,8 +99,7 @@ options = trainingOptions('sgdm',...
 + ::CheckpointPath:: : 默认不进行Checkpoint，如果设置了该路径，那么在每个epoch都会在路径下保存网络
 + ::OutputFcn:: : 每一次循环结束后的回调，会传入的参数有：
 
-![](img/1913A467-8C5E-42BE-8C12-1685EFF41072.png
-)
+![](img/1913A467-8C5E-42BE-8C12-1685EFF41072.png)
 
 在不使用自带的plot时，可以通过这个函数来记录数据，绘制图形等。
 一个OutputFcn的例子
@@ -184,8 +183,7 @@ parfor idx = 1:numMiniBatchSizes
 end
 ```
 
-![](img/46D8EF1A-1B72-41CD-88E2-18B105F8AAE9.png
-)
+![](img/46D8EF1A-1B72-41CD-88E2-18B105F8AAE9.png)
 
 ## 例子2: 使用多个CPU训练
 ``` MatLab
@@ -237,7 +235,6 @@ YPredicted = classify(net, imdsValidation);
 accuracy = sum(YPredicted == imdsValidation.Labels) / numel(imdsValidation.Labels);
 ```
 
-![](img/473BE9C7-4870-4680-A513-1D6283A352E0.png
-)
+![](img/473BE9C7-4870-4680-A513-1D6283A352E0.png)
 
 

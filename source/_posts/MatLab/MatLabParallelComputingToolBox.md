@@ -64,8 +64,7 @@ end
 
 ```
 
-![](img/xxIntermediateResultsCluster.gif
-)
+![](img/xxIntermediateResultsCluster.gif)
 D.afterEach接受一个匿名函数，在parfor中，将参数发送给D，D会并行的调用afterEach传入的匿名函数，实现并行的加速训练。
 
 
@@ -113,6 +112,5 @@ Ran in 0.28 seconds using a sequential for-loop.
 
 最后绘制出加速比
 
-![](img/9D09D203-D14C-481F-91B0-87C10A1120CE.png
-)
+![](img/9D09D203-D14C-481F-91B0-87C10A1120CE.png)
 

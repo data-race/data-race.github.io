@@ -18,8 +18,7 @@ date: 2023-07-17 20:17:29
 
 首先打开书中附带的数据收集应用程序 GestureDataRecorder。
 
-![](img/66DC605E-7882-4F0A-9AAB-76E63378AA1E.png
-)
+![](img/66DC605E-7882-4F0A-9AAB-76E63378AA1E.png)
 
 这是一个工具应用，当我们选择了动作类型并输入了User ID后，点击Start session，遵照语音指示，做出相应动作，最后该应用可以将收集到的传感器数据打好标注，并存储。
 
@@ -39,13 +38,11 @@ func startRecording() {
 
 然后将开始播放语音提示，指导如何防止手机。这段代码都是在ViewController中实现，由于我们将ViewController实现了AVSpeechSynthesizerDelegate代理，然后实现了函数speechSynthesizer
 
-![](img/39132B2A-A741-44BE-B790-6F9CE6B452DF.png
-)
+![](img/39132B2A-A741-44BE-B790-6F9CE6B452DF.png)
 
 这个函数会在播放完一段语音后触发，然后在这个函数中，是一个switch语句，告诉应用播放完一段语音后接着应该干什么：
 
-![](img/54E1C174-543F-4441-B8EC-2A6F1FAB528D.png
-)
+![](img/54E1C174-543F-4441-B8EC-2A6F1FAB528D.png)
 
 可以看到在播放完sessionStart语音之后，会调用函数queueNextActivity，来记录用户数据，目前这个函数还未实现，需要我们自己来引入CoreMotion，并实现数据采集的部分。
 ``` swift
@@ -77,8 +74,7 @@ func queueNextActivity() {
 import CoreMotion
 ```
 然后在info.plist中添加对动作数据的访问权限需求
-![](img/F6B7F9DD-2873-496D-AA31-A4C03BDBB73B.png
-)
+![](img/F6B7F9DD-2873-496D-AA31-A4C03BDBB73B.png)
 
 然后在ViewController中添加以下两个属性
 ``` swift

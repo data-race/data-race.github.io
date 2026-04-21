@@ -25,8 +25,7 @@ date: 2023-07-17 20:17:25
 mov $xxx, %eax # 系统调用号放入%eax寄存器
 syscall		  # 系统调用
 ```
-![](img/095BB9E8-A2FE-4CEA-B455-0BBEE7DDD73B1.png
-)
+![](img/095BB9E8-A2FE-4CEA-B455-0BBEE7DDD73B1.png)
 
 ## 技巧
 - 查看系统调用

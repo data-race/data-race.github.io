@@ -10,8 +10,7 @@ date: 2023-07-17 20:17:25
 在建立好项目之后，因为项目的结构很复杂，所以必须通过c_cpp_properties.json中的includePath来进行代码嗅探。
 比较坑的地方是MAC下，vscode似乎不会自动的从系统变量中，例如CPLUS_INCLUDE_PATH去找头文件，所以对与libclang的头文件，也是需要自己将其加入到includePath的。
 
-![](img/6FDD30C7-1732-4C47-9613-906C12F5BF0B.png
-)
+![](img/6FDD30C7-1732-4C47-9613-906C12F5BF0B.png)
 
 但是在构建时，还是需要自己使用makefile来构建
 ``` makefile
@@ -62,7 +61,6 @@ push:
 
 如果没找到c_cpp_properties.json，在控制面板中输入Edit Configuration
 
-![](img/E4843886-8BB8-44D9-8839-2AAF87F5742F.png
-)
+![](img/E4843886-8BB8-44D9-8839-2AAF87F5742F.png)
 会自动创建该文件。
 

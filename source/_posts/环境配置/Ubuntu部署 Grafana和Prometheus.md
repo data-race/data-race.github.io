@@ -60,32 +60,27 @@ sudo systemctl status grafana-server
 ```
 访问ip:3000
 
-![](img/2FB60426-E57A-4EBD-A469-8B35F988FB7C.png
-)
+![](img/2FB60426-E57A-4EBD-A469-8B35F988FB7C.png)
 
 初始用户和密码都是admin，login成功后设置新密码，这里新密码和i2ec的登录密码相同
 ### 创建Datasource
 选择创建prometheus的datasource
 
-![](img/6257BF3B-12AF-4E62-B9A6-C061E61FAAA3.png
-)
+![](img/6257BF3B-12AF-4E62-B9A6-C061E61FAAA3.png)
 
 ### 创建Dashboard
 选择import一个Dashboard
 这里使用一个社区提供的dashboard [Node Exporter Full dashboard for Grafana | Grafana Labs](https://grafana.com/grafana/dashboards/1860)，拷贝这个dashboard的ID，导入
 
-![](img/A069EF92-E9B0-410B-B587-7F3FC206CF7C.png
-)
+![](img/A069EF92-E9B0-410B-B587-7F3FC206CF7C.png)
 
 这里datasource选择我们创建的prometheus的datasource
 
-![](img/842157EE-CC91-4BB9-B571-B2E45B2C653A.png
-)
+![](img/842157EE-CC91-4BB9-B571-B2E45B2C653A.png)
 
 然后就可以在Dashboard上看到prometheus的数据
 
-![](img/FC4DD511-A4AE-4746-BC6D-29C891E01DF5.png
-)
+![](img/FC4DD511-A4AE-4746-BC6D-29C891E01DF5.png)
 
 ### 可选
 ```

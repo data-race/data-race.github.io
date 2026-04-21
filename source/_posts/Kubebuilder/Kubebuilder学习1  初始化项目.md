@@ -97,8 +97,7 @@ Writing scaffold for you to edit...
 api/v1alpha1/apiexample_types.go
 ```
 然后就可以发现controllers和apis文件夹下多了一些go文件，分别是控制器和资源类型的定义，这也是我们需要实现的部分。为了方便依赖管理，我们使用vendor。用Goland导入项目，就可以看到项目的完整结构了：
-![](img/4275CC82-F406-44C6-8820-CD4B5C5625F4.png
-)
+![](img/4275CC82-F406-44C6-8820-CD4B5C5625F4.png)
 其中，config文件夹下有一组配置文件：
 	* config/default: 包括用来启动controller的标准配置
 	* config/manager: 将controller做为pod启动在集群中
@@ -155,8 +154,7 @@ kubebuilder-example-controller-manager   1/1     1            1           9m56s
 ```
 注意，这一步也有一些问题，会遇到镜像拉不下来的情况
 
-![](img/25EB2659-F351-432C-982E-7F0067EDDB65.png
-)
+![](img/25EB2659-F351-432C-982E-7F0067EDDB65.png)
 
 由于minikube的docker是不走代理的，解决方案是用docker通过代理拉取gcr.io的镜像，然后推送到自己的阿里云仓库，再切换到minikube的docker，从阿里云拉取镜像。
 	* 创建CRD对象

@@ -13,8 +13,7 @@ date: 2023-07-17 20:17:29
 ## 数据集
 使用的数据集是本书的作者整理出的零食数据集，一共有20种不同的零食，每种零食有350张图片，其中250张用于训练，50张用于验证，50张用于测试。在CreateML中，数据集被组织成文件夹的形式，每个类别用一个子文件夹。
 
-![](img/CB2FCA18-267B-43A6-AE68-33E3700D68A6.png
-)
+![](img/CB2FCA18-267B-43A6-AE68-33E3700D68A6.png)
 
 ## CreateML
 我们首先创建一个macOS playground，记住必须是macOS的，否则没有CreateML框架，然后输入以下代码并运行：
@@ -27,8 +26,7 @@ builder.showInLiveView()
 
 运行后，会发现Xcode右侧出现了有关模型训练的图形界面，可以拖拽/选择等方式加入训练集，测试集等，也可以设置训练轮数。
 
-![](img/2FD703CF-A6E5-4BF4-9BFB-363D74F6A56A.png
-)
+![](img/2FD703CF-A6E5-4BF4-9BFB-363D74F6A56A.png)
 之后就会开启训练流程，训练过程会实时显示在下方。直观上来说，训练还是比较快的，这是由于使用了*迁移训练*，之后会再介绍。
 另外，Xcode会提示Create ML的所有功能已经被苹果开发成了一个APP，https://developer.apple.com/machine-learning/resources/，并在WWDC 2019上发布。虽然仍然可以使用Create ML框架进行训练。
 
@@ -47,13 +45,11 @@ builder.showInLiveView()
 CreateML使用的基础模型叫VisionFeaturePrint_Screen，这是使用ImageNet训练的数据集，因此在图像分类方面效果很好。这个模型实际是在提取特征，输出是一个2048维的向量，然后CreateML使用逻辑回归，对提取出的特征进行分类。
 
 在训练过程中会发现过拟合的现象，可以通过增加图片来改善。CreateML提供了一些参数可以选择，通过对原图片进行镜像、翻转、旋转等操作，构建出更多的训练数据。
-![](img/Attachment.png
-)
+![](img/Attachment.png)
 
 ## 模型验证与导出
 训练结束后，可以对模型进行命名，并导出为CoreML格式的模型，然后就可以像第二章那样在应用中使用。
-![](img/Attachment1.png
-)
+![](img/Attachment1.png)
 ## 总结
 在这一章我们学习了如何使用CreateML训练自己的CoreML模型。CreateML非常容易使用，但是只允许我们在训练过程中调整很少的参数，而且在文本分类方面也有不足，接着我们会学习如何使用TuriCreate Python工具包训练更完备的模型。
 TODO: 会尝试使用训练的模型开发一个实时监测食物类别的应用。

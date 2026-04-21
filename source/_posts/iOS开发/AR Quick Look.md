@@ -27,8 +27,7 @@ date: 2023-07-17 20:17:29
 ## AR Quick Look for Apps
 书中提供了几个USDZ格式的文件和一个App的脚手架，我们的工作是让这个App可以展示这些USDZ文件。
 ### 导入USDZ文件
-![](img/87FC37A1-D94E-45E9-BA7C-085FF2E4B95D.png
-)
+![](img/87FC37A1-D94E-45E9-BA7C-085FF2E4B95D.png)
 直接将Models文件夹拖拽至Xcode项目中，并选择Create Groups
 
 ### 添加Protocols
@@ -63,8 +62,7 @@ extension ViewController: QLPreviewControllerDelegate,QLPreviewControllerDataSou
 
 实际效果：
 
-![](img/D6DAC27C36DB83F30FC9B54E7AB4AD2C.mp4
-)
+![](img/D6DAC27C36DB83F30FC9B54E7AB4AD2C.mp4)
 
 
 

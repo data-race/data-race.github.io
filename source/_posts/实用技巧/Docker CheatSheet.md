@@ -26,8 +26,7 @@ docker pull --platform linux/amd64 xxx
 docker search redis
 ```
 
-![](img/FCB24354-03B3-4536-AA20-D5E95DA85807.png
-)
+![](img/FCB24354-03B3-4536-AA20-D5E95DA85807.png)
 
 ### docker 代理配置
 ``` shell

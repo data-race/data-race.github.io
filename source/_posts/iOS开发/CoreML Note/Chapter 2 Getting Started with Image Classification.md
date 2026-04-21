@@ -16,8 +16,7 @@ date: 2023-07-17 20:17:29
 ## UI 设计
 我使用的设备是iPad Air3，应用的UI设计比较简陋，因为本身对IOS应用开发不是很熟悉
 
-![](img/B756DF5C-7BA9-4CE0-9128-28E443F335D6.png
-)
+![](img/B756DF5C-7BA9-4CE0-9128-28E443F335D6.png)
 
 整个应用包括一个展示分类结果的Label，一个展示置信度的Label，一个UIImageView用来展示待分类的图片，一个Button用来选择图片，选择图片可以是从Photo Library，也可以是拍照。
 
@@ -30,8 +29,7 @@ date: 2023-07-17 20:17:29
 苹果公司在IOS11中加入了CoreML，通过CoreML可以简单的在App中使用机器学习模型。差不多就是把模型文件加入到app中，然后调用一些API。当然，只有有已经训练好的模型时，才可以这样使用CoreML，本章所使用的模型文件可以在网上找到https://github.com/threadLord/ML_CoreML/blob/master/02-image-classification/starter/HealthySnacks.mlmodel
 
 之前说过，CoreML也是一种文件格式，是苹果用来存储和使用机器学习模型的文件格式。这个模型文件下载之后，通过Xcode的添加文件功能添加到项目中，然后可以看到它的基础信息：
-![](img/7F0B3B97-F402-4494-83E4-D45228BEB357.png
-)
+![](img/7F0B3B97-F402-4494-83E4-D45228BEB357.png)
 从中我们可以得知：
 * 该模型使用的是神经网络分类器，基于SqueezeNet
 * 该模型大小只有5MB
@@ -124,8 +122,7 @@ Request is finished! Optional([<VNClassificationObservation: 0x60c00022b940> B09
 这个函数在初始化classificationRequest的时候被调用，会将结果通过label展示。
 
 ## 应用效果
-![](img/demo.mov
-)
+![](img/demo.mov)
 
 ## 总结
 Swift的语言特性还没有完全搞明白，感觉用到了很多闭包回调，非常灵活。

@@ -14,8 +14,7 @@ date: 2023-07-17 20:17:26
 - Predicate
 - Prioritize
 - Bind
-![](img/scheduling-framework-extensions.png
-)
+![](img/scheduling-framework-extensions.png)
 K8s允许我们在调度的一些关键节点使用插件的方式对调度器进行扩展，在K8s Schedule Framework的设计提案中，认为在调度周期中，可以供扩展的位置有:
 - 队列排序： 对调度队列中待调度的Pod进行排序
 - 前置过滤： 预先判断Pod和集群是否满足某些必要条件，如果不满足，则终止调度
@@ -32,8 +31,7 @@ https://github.com/kubernetes/enhancements/blob/master/keps/sig-scheduling/624-s
 - 使用插件机制，直接对调度器的源码进行修改，为调度器添加插件
 - 保持原有的默认调度器不变，启动一个新的定制的调度器，然后在Pod中指定schedulerName
 - **使用Extender机制对原有的调度器进行扩展**
-![](img/arch.jpg
-)
+![](img/arch.jpg)
 
 ### Webhook
 

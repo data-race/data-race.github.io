@@ -144,12 +144,10 @@ spec:
 ```
 
 使用yaml创建ApiExample之后，在controller的log中可以看到Reconcile的输出
-![](img/20D1F4AD-2EB9-47E7-A0B2-1D0550BDF2B1.png
-)
+![](img/20D1F4AD-2EB9-47E7-A0B2-1D0550BDF2B1.png)
 
 同时，可以看到ApiExample创建出的一个个pod。
-![](img/96F140D6-1937-41B0-847E-3F452BD4CB65.png
-)
+![](img/96F140D6-1937-41B0-847E-3F452BD4CB65.png)
 
 需要注意的是，kubebuilder的rbac只提供了对CRD进行操作的权限，而对于Pod这种资源进行操作还需要我们自己进行rbac。
 

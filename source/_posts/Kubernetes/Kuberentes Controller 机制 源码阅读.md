@@ -8,8 +8,7 @@ date: 2023-07-17 20:17:26
 ---
 #kubernetes 
 
-![](img/结构.png
-)
+![](img/结构.png)
 
 在对Client-go的阅读中，初步对informer机制有了了解。Reflector通过ListWatch方法不断获取对象的变化，存入Delta FIFO Queue，Informer消耗Delta FIFO Queue中的Delta对象，由Indexer来更新本地缓存，同时Informer根据Delta对象，来将变动Dispatch到Controller中的Event Handlers。Controller会根据这些变动来采取相应的行为，在一些成熟的Operator开发框架中(Kube-builder， Operator-SDK)中，我们往往只需要在SetUpWithManager中设置好感兴趣的资源类型，然后写一个Reconcile方法即可，但是为了加深对Controller的理解，熟悉Controller底层的工作机制是十分必要的。
 这篇笔记将介绍Controller的工作原理。

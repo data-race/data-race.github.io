@@ -12,8 +12,7 @@ date: 2023-07-17 20:17:25
 
 MacOS下直接使用Azul提供的OpenJDK，下载dmg文件，直接安装即可。
 https://www.azul.com/downloads/?version=java-8-lts&package=jdk
-![](img/Pastedimage20221022142156.png
-)
+![](img/Pastedimage20221022142156.png)
 
 
 ## Linux

@@ -144,8 +144,7 @@ spec:
 ```
 
 测试, 可以正常访问。但是由于未使用tls，所以并不安全，接下来进行自签证书
-![](img/Pastedimage20221028210840.png
-)
+![](img/Pastedimage20221028210840.png)
 
 
 ### 自签证书
@@ -188,5 +187,4 @@ spec:
               number: 9999
 ```
 
-![](img/Pastedimage20221028235141.png
-)
+![](img/Pastedimage20221028235141.png)
