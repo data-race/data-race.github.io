@@ -1,9 +1,11 @@
 ---
 categories:
   - Agent
+title: Agent体系结构
+tags:
+  - agent
+date:
 ---
-
-#agent
 
 现代 LLM Agent 体系结构，核心是**以大语言模型（LLM）为认知中枢**，通过 **Prompt、Skill、Tool、Harness** 四大工程化模块协同，构成一套可规划、可执行、可记忆、可控制的闭环智能系统。
 

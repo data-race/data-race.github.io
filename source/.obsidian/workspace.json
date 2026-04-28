@@ -14,12 +14,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/Anything From Anywhere/关于权限控制的一切.md",
+                "file": "_posts/Agent/Agent体系结构.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "关于权限控制的一切"
+              "title": "Agent体系结构"
             }
           }
         ]
@@ -35,13 +35,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/Anything From Anywhere/关于权限控制的一切.md",
+                "file": "_posts/Agent/Agent体系结构.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "关于权限控制的一切 的大纲"
+              "title": "Agent体系结构 的大纲"
             }
           }
         ]
@@ -67,7 +67,7 @@
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
-              "title": "Files"
+              "title": "文件列表"
             }
           },
           {
@@ -77,14 +77,14 @@
               "type": "search",
               "state": {
                 "query": "",
-                "matchingCase": false,
+                "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
               },
               "icon": "lucide-search",
-              "title": "Search"
+              "title": "搜索"
             }
           },
           {
@@ -103,8 +103,8 @@
             "state": {
               "type": "file-tree-view",
               "state": {},
-              "icon": "lucide-ghost",
-              "title": "file-tree-view"
+              "icon": "sheets-in-box",
+              "title": "File Tree"
             }
           },
           {
@@ -127,8 +127,7 @@
               "title": "File Tree"
             }
           }
-        ],
-        "currentTab": 5
+        ]
       }
     ],
     "direction": "horizontal",
@@ -225,8 +224,11 @@
       "file-tree-alternative:File Tree Alternative Plugin": false
     }
   },
-  "active": "47ba810e65cc06bf",
+  "active": "cbeaefbbb5ee0190",
   "lastOpenFiles": [
+    "_posts/Anything From Anywhere/HTTPS,X.509，以及实践.md",
+    "_posts/Agent/Agent体系结构.md",
+    "_posts/Anything From Anywhere/关于权限控制的一切.md",
     "_posts/求职/2022商汤实习/关于开发机分区污点可选功能添加的技术方案.md",
     "_posts/求职/2022商汤实习/商汤实习日记.md",
     "_posts/求职/2022商汤实习/商汤实习总结.md",
@@ -253,9 +255,6 @@
     "img/Pasted image 20260426145226.png",
     "_posts/求职/求职状态.md",
     "_posts/求职/项目经历.md",
-    "_posts/Istio/Istio学习5：更精细的流量管理.md",
-    "_posts/Istio/Istio学习2： 安装与简单使用.md",
-    "_posts/Istio/Istio学习1：为什么需要Service Mesh.md",
     "_posts/求职",
     "_posts/untitled folder",
     "_posts/Agent"
