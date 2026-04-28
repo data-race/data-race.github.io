@@ -6,27 +6,42 @@
       {
         "id": "9f63efb70d59d64b",
         "type": "tabs",
+        "dimension": 79.47443181818181,
         "children": [
-          {
-            "id": "9c8bac57e1a56a67",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/实用技巧/Linux CheatSheet.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
           {
             "id": "47ba810e65cc06bf",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.6.5"
-              }
+                "file": "_posts/Anything From Anywhere/关于权限控制的一切.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "关于权限控制的一切"
+            }
+          }
+        ]
+      },
+      {
+        "id": "41996c4655c4751c",
+        "type": "tabs",
+        "dimension": 20.525568181818183,
+        "children": [
+          {
+            "id": "16d7dc51930f6512",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "_posts/Anything From Anywhere/关于权限控制的一切.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "关于权限控制的一切 的大纲"
             }
           }
         ]
@@ -48,8 +63,11 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
-              }
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
             }
           },
           {
@@ -64,7 +82,9 @@
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "Search"
             }
           },
           {
@@ -72,7 +92,9 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
             }
           },
           {
@@ -80,14 +102,37 @@
             "type": "leaf",
             "state": {
               "type": "file-tree-view",
-              "state": {}
+              "state": {},
+              "icon": "lucide-ghost",
+              "title": "file-tree-view"
+            }
+          },
+          {
+            "id": "989017e771fef027",
+            "type": "leaf",
+            "state": {
+              "type": "file-tree-view",
+              "state": {},
+              "icon": "sheets-in-box",
+              "title": "File Tree"
+            }
+          },
+          {
+            "id": "7c1c27f8e2e4da53",
+            "type": "leaf",
+            "state": {
+              "type": "file-tree-view",
+              "state": {},
+              "icon": "sheets-in-box",
+              "title": "File Tree"
             }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 334.5
   },
   "right": {
     "id": "345fa81b2b52fbdc",
@@ -103,7 +148,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/实用技巧/Linux CheatSheet.md",
+                "file": "_posts/求职/AI Agent.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +156,9 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for AI Agent"
             }
           },
           {
@@ -120,10 +167,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/实用技巧/Linux CheatSheet.md",
+                "file": "_posts/求职/AI Agent.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from AI Agent"
             }
           },
           {
@@ -133,8 +182,12 @@
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": true
-              }
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
             }
           },
           {
@@ -143,11 +196,17 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/实用技巧/Linux CheatSheet.md"
-              }
+                "file": "_posts/求职/AI Agent.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of AI Agent"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -162,36 +221,43 @@
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
+      "bases:新建数据库": false,
       "file-tree-alternative:File Tree Alternative Plugin": false
     }
   },
-  "active": "cbeaefbbb5ee0190",
+  "active": "47ba810e65cc06bf",
   "lastOpenFiles": [
-    "_posts/实用技巧/Git CheatSheet.md",
-    "_posts/实用技巧/Docker CheatSheet.md",
-    "_posts/实用技巧/K8s Cheatsheet.md",
-    "_posts/实用技巧/Linux CheatSheet.md",
-    "_posts/环境配置/Zsh 配置.md",
-    "_posts/Istio/Istio学习2： 安装与简单使用.md",
-    "_posts/Istio/Istio学习3：Envoy Proxy.md",
-    "_posts/Istio/Istio学习4：让流量进入集群.md",
+    "_posts/求职/2022商汤实习/关于开发机分区污点可选功能添加的技术方案.md",
+    "_posts/求职/2022商汤实习/商汤实习日记.md",
+    "_posts/求职/2022商汤实习/商汤实习总结.md",
+    "_posts/求职/2025-4求职记录/项目经历.md",
+    "_posts/求职/2025-4求职记录/求职状态.md",
+    "_posts/iOS开发/CoreML Note/Chapter 2 Getting Started with Image Classification.md",
+    "_posts/求职/2025-4求职记录/AI Agent.md",
+    "_posts/求职/2025-4求职记录/关于Claude Code.md",
+    "_posts/求职/2025-4求职记录",
+    "_posts/求职/untitled folder",
+    "_posts/iOS开发/CoreML Note/Chapter 4 & 5 Learning TuriCreate.md",
+    "_posts/iOS开发/CoreML Note/Chapter 1 iOS and ML.md",
+    "_posts/Kubernetes/Kubernetes Authentication.md",
+    "_posts/K8s概念学习/2.K8s概念.md",
+    "_posts/求职/2022秋招/2022秋招华为.md",
+    "_posts/求职/2022秋招/2022秋招亚麻.md",
+    "_posts/求职/2022秋招/2022秋招SmartX.md",
+    "_posts/求职/2022秋招/2022秋招Singularity.md",
+    "_posts/求职/2022秋招/2022秋招蔚来基础架构.md",
+    "_posts/求职/2022秋招/2022秋招趋势科技.md",
+    "_posts/求职/2022秋招/2022秋招阿里云.md",
+    "_posts/求职/AI Agent.md",
+    "_posts/求职/关于Claude Code.md",
+    "img/Pasted image 20260426145226.png",
+    "_posts/求职/求职状态.md",
+    "_posts/求职/项目经历.md",
     "_posts/Istio/Istio学习5：更精细的流量管理.md",
+    "_posts/Istio/Istio学习2： 安装与简单使用.md",
     "_posts/Istio/Istio学习1：为什么需要Service Mesh.md",
-    "_posts/实用技巧/Golang CheatSheet.md",
-    "_posts/Kubernetes/K8s热升级实践 1.17-1.18.md",
-    "_posts/K8s概念学习/1.容器基本概念.md",
-    "_posts/求职/2023RisingWave实习/实习总结.md",
-    "_posts/求职/2023RisingWave实习/VaultHA+自动Rotate.md",
-    "_posts/求职/2023RisingWave实习/VaultHA+为MySQL生成Credential.md",
-    "_posts/求职/2023RisingWave实习/VaultHA+ExternalStorage.md",
-    "_posts/求职/2023RisingWave实习/Vault+ExternalSecretOperator.md",
-    "_posts/求职/2023RisingWave实习/Vault+CertManager.md",
-    "_posts/求职/2023RisingWave实习/RisingWavecloud理解.md",
-    "_posts/求职/2023RisingWave实习/Proj目标.md",
-    "_posts/求职/2023RisingWave实习/EKSServiceAccount绑定IAMRole.md",
-    "_posts/求职/2023RisingWave实习/DesignReview.md",
-    "_posts/求职/2022微软实习/AtlasModelLanguage.md",
-    "_posts/求职/2022微软实习/Howtocreateascan.md",
-    "_posts/求职/2022微软实习/Purview文档.md"
+    "_posts/求职",
+    "_posts/untitled folder",
+    "_posts/Agent"
   ]
 }
